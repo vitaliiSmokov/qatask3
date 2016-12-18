@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="QATestLab" verbose="1" >
+    <parameter name="numRelat" value="10" />
+    <test name="home_task_3"   >
+        <classes>
+            <class name="task3"></class>
+        </classes>
+    </test>
+</suite>
+
